@@ -1,0 +1,23 @@
+django framework:
+    Setup: django-admin startproject flasktrain
+        Makes flasktrain\flasktrain
+    Files: (Inside flasktrain\flasktrain)
+        __init__.py = Initialisation
+        asgi.py = For Global Setup
+        settings.py = most used
+
+settings.py:
+    overall configuration of the project
+    middleware: for protecting the database and stuff, phishing, etc.
+
+Running manage.py creates flasktrain
+    flasktrain\manage.py runserver
+
+fix migration by running make migration
+    flasktrain\manage.py migrate
+
+    createsuperuser:
+        chaotic
+        chaoticemperor2@gmail.com
+        Leucotic
+        
